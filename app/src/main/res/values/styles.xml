@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomActionBarTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/bgGrowth</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="defaultAppTheme" parent="AppThemeActionBar">
+        <item name="colorPrimaryDark">@color/bgGrowthDark</item>
+        <item name="colorPrimary">@color/bgGrowth</item>
+        <item name="colorAccent">@color/bgGrowth</item>
+        <item name="android:textColor">@color/textGrowth</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/textGrowth</item>
+        <item name="colorControlHighlight">@color/green</item>
+    </style>
+    <style name="defaultAppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="loginTheme" parent="defaultAppTheme.NoActionBar">
+        <item name="android:textColorPrimary">@color/textGrowth</item>
+        <item name="colorButtonNormal">@color/bgGrowth</item>
+    </style>
+    <style name="dialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/bgGrowth</item>
+        <item name="android:textColorPrimary">@color/textGrowth</item>
+        <item name="android:textColorSecondary">@color/textGrowth</item>
+    </style>
+
+    <!-- Button -->
+    <style name="LoginButton" parent="loginTheme">
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="colorButtonNormal">@color/bgGrowth</item>
+    </style>
+    <!-- /Button -->
+
+
+    <style name="defaultAppTheme2" parent="AppThemeActionBar">
+        <item name="colorPrimaryDark">@color/headerDark</item>
+        <item name="colorPrimary">@color/header</item>
+        <item name="colorAccent">@color/textGrowth</item>
+        <item name="android:textColorPrimary">@color/textGrowth</item>
+        <item name="colorButtonNormal">@color/green</item>
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="colorSwitchThumbNormal">@color/green</item>
+        <item name="android:textColorPrimaryInverse">@color/green</item>
+        <item name="android:actionMenuTextColor">@color/green</item>
+    </style>
+
+
+    <style name="defaultAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="defaultAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+</resources>

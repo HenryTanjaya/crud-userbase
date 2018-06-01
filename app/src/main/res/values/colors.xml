@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b3b91</color>
+    <color name="colorPrimaryDark">#003491</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteEven">#F7F7F7</color>
+    <color name="redNormal">#ff3940</color>
+    <color name="orange">#FF9900</color>
+    <color name="orangeRed">#fe7100</color>
+    <color name="green">#10a07c</color>
+    <color name="greenSalad">#a1c935</color>
+    <color name="blue">#000099</color>
+    <color name="redDark">#e50000</color>
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="brown">#cfbb96</color>
+    <color name="yellow">#fcf101</color>
+    <color name="black">#000000</color>
+    <color name="pink">#f56adf</color>
+
+    <color name="headerDark">#818080</color>
+    <color name="header">#cecece</color>
+    <color name="listHover">#e1e1e1</color>
+    <color name="listSelected">#cccccc</color>
+    <color name="bgGrowthDark">#18428e</color>
+    <color name="bgGrowth">#18428e</color>
+
+    <color name="textGrowth">#404041</color>
+    <color name="bgGrowthText">#125688</color>
+</resources>

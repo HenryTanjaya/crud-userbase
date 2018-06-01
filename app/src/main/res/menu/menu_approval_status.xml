@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_apv_status"
+        android:icon="@drawable/options"
+        android:title="More"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_approve"
+                android:icon="@drawable/tick"
+                android:title="Approve"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/menu_reject"
+                android:icon="@drawable/close"
+                android:title="Reject"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>
+
